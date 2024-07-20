@@ -2,6 +2,9 @@
 
 BetterDiscord-ScheduledSend is a plugin for BetterDiscord that adds the functionality to schedule messages to be sent at a later time.
 
+> [!WARNING]
+> This plugin is provided as-is and may violate Discord's Terms of Service. Use it at your own risk.
+
 ## Features
 
 - **Schedule Messages:** Easily schedule messages to be sent at a specific time.
