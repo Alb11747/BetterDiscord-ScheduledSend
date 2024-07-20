@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "outDir": "./ScheduledSend",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "removeComments": false,
+        "strict": false
+    },
+    "include": [
+        "./src/*.ts",
+        "./src/*.tsx",
+        "./src/types/**/*.d.ts"
+    ],
+    "exclude": [
+        "./node_modules/**/*"
+    ]
+}

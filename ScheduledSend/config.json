@@ -1,0 +1,11 @@
+{
+    "main": "index.js",
+    "id": "ScheduledSend",
+    "name": "ScheduledSend",
+    "author": "Alb11747",
+    "version": "0.1.0",
+    "description": "Adds a feature to schedule the sending of messages.",
+    "source": "",
+    "changelog": [],
+    "defaultConfig": []
+}
