@@ -147,10 +147,7 @@ module.exports = (Plugin, Library) => {
         return (React.createElement(Tooltip, { text: "Schedule Send" }, (p) => (React.createElement("div", { style: { marginTop: "10px" } },
             React.createElement("button", { ...p, className: "schedule-button", onClick: openScheduleSendModal },
                 React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 36 36", width: "24", height: "24", fill: "currentColor" },
-                    React.createElement("g", { transform: `scale(${32 / 490})` },
-                        React.createElement("g", null,
-                            React.createElement("path", { d: "M245,0C109.5,0,0,109.5,0,245s109.5,245,245,245s245-109.5,245-245S380.5,0,245,0z M245,449.3c-112.6,0-204.3-91.7-204.3-204.3S132.4,40.7,245,40.7S449.3,132.4,449.3,245S357.6,449.3,245,449.3z" }),
-                            React.createElement("path", { d: "M290.9,224.1h-25v-95.9c0-11.5-9.4-20.9-20.9-20.9s-20.9,9.4-20.9,20.9V245c0,11.5,9.4,20.9,20.9,20.9h45.9c11.5,0,20.9-9.4,20.9-20.9S302.3,224.1,290.9,224.1z" })))))))));
+                    React.createElement("path", { transform: `scale(${32 / 512})`, d: "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z" })))))));
     }
     return class ScheduledSend extends Plugin {
         onStart() {
