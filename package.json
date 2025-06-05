@@ -1,24 +1,26 @@
 {
-  "name": "plugins",
+  "name": "ScheduledSend",
   "main": "ScheduledSend.plugin.js",
+  "description": "Adds a feature to schedule the sending of messages.",
+  "version": "1.0.0",
   "scripts": {
-    "build": "tsc && zpl build ScheduledSend",
-    "init": "zpl init ScheduledSend"
+    "build": "webpack --progress --color"
   },
   "author": "Alb11747",
   "license": "MIT",
-  "description": "Adds a feature to schedule the sending of messages.",
-  "repository": { 
-    "type": "git", 
+  "repository": {
+    "type": "git",
     "url": "https://github.com/Alb11747/BetterDiscord-ScheduledSend"
   },
-  "dependencies": {
-    "zerespluginlibrary": "^2.0.6"
-  },
   "devDependencies": {
+    "@types/betterdiscord": "github:zerthox/betterdiscord-types",
     "@types/node": "^20.14.11",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   }
 }

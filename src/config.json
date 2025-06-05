@@ -1,0 +1,7 @@
+{
+    "name": "ScheduledSend",
+    "description": "Adds a feature to schedule the sending of messages.",
+    "author": "Alb11747",
+    "source": "https://github.com/Alb11747/BetterDiscord-ScheduledSend",
+    "github_raw": "https://raw.githubusercontent.com/Alb11747/BetterDiscord-ScheduledSend/main/dist/ScheduledSend.plugin.js"
+}
