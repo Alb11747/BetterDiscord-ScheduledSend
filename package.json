@@ -8,6 +8,7 @@
   "author": "Alb11747",
   "license": "MIT",
   "description": "Adds a feature to schedule the sending of messages.",
+  "source": "https://github.com/Alb11747/BetterDiscord-ScheduledSend",
   "dependencies": {
     "zerespluginlibrary": "^2.0.6"
   },
