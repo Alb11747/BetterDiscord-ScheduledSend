@@ -1,4 +1,4 @@
-# BetterDiscord ScheduledSend Plugin
+# Better Discord Scheduled Send Plugin
 
 BetterDiscord-ScheduledSend is a plugin for BetterDiscord that adds the functionality to schedule messages to be sent at a later time.
 
@@ -37,22 +37,18 @@ Your message will be sent automatically at the specified time.
 4. Drag and drop the `ScheduledSend.plugin.js` file into the plugins folder.
 5. Enable the ScheduledSend plugin from the BetterDiscord plugins menu.
 
-## Dependencies
-
-- **ZeresPluginLibrary:** This plugin requires the ZeresPluginLibrary to function properly. Make sure it is installed in your BetterDiscord plugins folder.
-
 ## Building from Source
 
 If you wish to build the plugin from the source, follow these steps:
 
 1. Clone this repository.
 2. Navigate to the cloned directory.
-3. Run `npm install` to install the necessary dependencies.
+3. Run `npm install --include=dev` to install the necessary dependencies.
 4. Run `npm run build` to build the plugin. The built plugin will be output to the same directory.
 
 ## Development
 
-If you wish to modify the plugin, make sure to only modify the files within the `src` directory and `ScheduledSend/config.json`. Other files are generated during the build process and should not be modified directly.
+If you wish to modify the plugin, make sure to only modify the files within the `src` directory. Files in `dist` are generated during the build process and should not be modified directly.
 
 ## License
 
