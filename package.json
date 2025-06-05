@@ -3,12 +3,15 @@
   "main": "ScheduledSend.plugin.js",
   "scripts": {
     "build": "tsc && zpl build ScheduledSend",
-    "init": "zpl init"
+    "init": "zpl init ScheduledSend"
   },
   "author": "Alb11747",
   "license": "MIT",
   "description": "Adds a feature to schedule the sending of messages.",
-  "source": "https://github.com/Alb11747/BetterDiscord-ScheduledSend",
+  "repository": { 
+    "type": "git", 
+    "url": "https://github.com/Alb11747/BetterDiscord-ScheduledSend"
+  },
   "dependencies": {
     "zerespluginlibrary": "^2.0.6"
   },

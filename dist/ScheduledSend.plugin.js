@@ -3,6 +3,7 @@
  * @description Adds a feature to schedule the sending of messages.
  * @version 0.1.0
  * @author Alb11747
+ * @source https://github.com/Alb11747/BetterDiscord-ScheduledSend
  */
 /*@cc_on
 @if (@_jscript)
@@ -34,7 +35,8 @@ const config = {
     author: "Alb11747",
     version: "0.1.0",
     description: "Adds a feature to schedule the sending of messages.",
-    source: "",
+    source: "https://github.com/Alb11747/BetterDiscord-ScheduledSend",
+    github_raw: "https://raw.githubusercontent.com/Alb11747/BetterDiscord-ScheduledSend/main/dist/ScheduledSend.plugin.js",
     changelog: [],
     defaultConfig: []
 };
