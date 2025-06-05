@@ -1,0 +1,46 @@
+.schedule-send-button-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.schedule-send-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--interactive-normal);
+}
+
+.schedule-send-button:hover {
+    background-color: var(--background-modifier-hover) !important;
+}
+
+.schedule-send-button:active {
+    background-color: var(--background-modifier-active) !important;
+}
+
+[class*=innerDisabled] .schedule-send-button {
+    display: none;
+}
+
+.vbd-its-modal-header {
+    padding: 16px;
+}
+
+.vbd-its-modal-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.vbd-its-preview-title {
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+}
+
+.vbd-its-preview-text {
+    background-color: var(--background-secondary);
+    padding: 8px;
+    border-radius: 4px;
+    font-family: var(--font-code);
+}
